@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap04App", "Chap04App\Chap04App.csproj", "{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDecTestApp", "IncDecTestApp\IncDecTestApp.csproj", "{6327512C-6B00-4047-AFFD-0AB57F333755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6327512C-6B00-4047-AFFD-0AB57F333755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6327512C-6B00-4047-AFFD-0AB57F333755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6327512C-6B00-4047-AFFD-0AB57F333755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6327512C-6B00-4047-AFFD-0AB57F333755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9703AC06-EB87-4F30-B320-01F5DE462B61}
+	EndGlobalSection
+EndGlobal
