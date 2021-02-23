@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap04App", "Chap04App\Chap04App.csproj", "{AFD4C63C-C01E-43E1-AEFE-78FF31D82D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDecTestApp", "IncDecTestApp\IncDecTestApp.csproj", "{6327512C-6B00-4047-AFFD-0AB57F333755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncDecTestApp", "IncDecTestApp\IncDecTestApp.csproj", "{6327512C-6B00-4047-AFFD-0AB57F333755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatApp", "StringConcatApp\StringConcatApp.csproj", "{49AC448E-88B4-4FF7-B08C-1BD3C73F07C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6327512C-6B00-4047-AFFD-0AB57F333755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6327512C-6B00-4047-AFFD-0AB57F333755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6327512C-6B00-4047-AFFD-0AB57F333755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AC448E-88B4-4FF7-B08C-1BD3C73F07C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AC448E-88B4-4FF7-B08C-1BD3C73F07C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AC448E-88B4-4FF7-B08C-1BD3C73F07C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AC448E-88B4-4FF7-B08C-1BD3C73F07C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
