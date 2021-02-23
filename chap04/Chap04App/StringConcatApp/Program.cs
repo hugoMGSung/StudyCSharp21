@@ -46,6 +46,8 @@ namespace StringConcatApp
             Console.WriteLine("NULL 병합연산자");
             int? d = null;
             Console.WriteLine($"{d ?? 0}");
+            d = 99;
+            Console.WriteLine($"{d ?? 0}");
         }
     }
 }
