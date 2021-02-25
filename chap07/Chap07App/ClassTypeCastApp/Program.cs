@@ -37,8 +37,8 @@ namespace ClassTypeCastApp
             포유류 _포유류 = new 포유류();
             _포유류.키우다();
 
-            _포유류 = new 강아지();
-            _포유류.키우다();
+            /*_포유류 = new 강아지();
+            _포유류.키우다();*/
             강아지 쭈쭈;
 
             if (_포유류 is 강아지)
@@ -47,13 +47,18 @@ namespace ClassTypeCastApp
                 쭈쭈.멍멍();
             }
 
-            강아지 뽀삐 = null;
+            //강아지 뽀삐 = null;
+            강아지 뽀삐 = new 강아지();
             if (뽀삐 is 포유류)
             {
                 Console.WriteLine("이부분이 실행됩니다.");
-                뽀삐 = new 포유류() as 강아지;
-                뽀삐.키우다();
-                뽀삐.멍멍();
+                포유류 mammel = new 포유류();
+                뽀삐 = mammel as 강아지;
+                if (뽀삐 != null) {
+                    뽀삐.키우다();
+                    뽀삐.멍멍();
+                }
+                
             }
         }
     }
