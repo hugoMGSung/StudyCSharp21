@@ -34,16 +34,20 @@ namespace ClassTypeCastApp
     {
         static void Main(string[] args)
         {
-            포유류 _포유류 = new 포유류();
-            _포유류.키우다();
+            포유류 a = new 포유류();
+            a.키우다();
 
+            a = new 강아지();
+            a.키우다();
+
+            (a as 강아지).멍멍();
             /*_포유류 = new 강아지();
             _포유류.키우다();*/
             강아지 쭈쭈;
 
-            if (_포유류 is 강아지)
+            if (a is 강아지)
             {
-                쭈쭈 = _포유류 as 강아지;
+                쭈쭈 = a as 강아지;
                 쭈쭈.멍멍();
             }
 
