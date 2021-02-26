@@ -43,6 +43,7 @@ namespace ClassTypeCastApp
             (a as 강아지).멍멍();
             /*_포유류 = new 강아지();
             _포유류.키우다();*/
+            //a = null;
             강아지 쭈쭈;
 
             if (a is 강아지)
