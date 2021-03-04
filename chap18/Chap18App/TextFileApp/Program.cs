@@ -11,7 +11,7 @@ namespace TextFileApp
     {
         static void Main(string[] args)
         {
-            string filePath = @"D:\GitRepository\StudyCSharp21\SampleDir\SubFolder\a.dat"; // 텍스트 파일 생성위치
+            string filePath = @"D:\GitRepository\StudyCSharp21\SampleDir\SubFolder\readme.txt"; // 텍스트 파일 생성위치
 
             StreamWriter sw = null; 
 
